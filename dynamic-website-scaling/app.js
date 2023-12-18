@@ -22,4 +22,4 @@ app.post('/data', async function (req, res) {
   res.status(201).json({ message: 'Received dummy data.', data });
 });
 
-app.listen(3000);
+app.listen(80);
